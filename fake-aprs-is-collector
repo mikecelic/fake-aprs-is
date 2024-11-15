@@ -8,7 +8,7 @@ import threading
 HOST = '0.0.0.0'  # Listen on all available interfaces
 PORT = 14580      # Typical APRS-IS port
 log_file_path = '/home/lighthouse/fake-aprs-is/fake-aprs-is-logs/fake-aprs-is.log'
-keepalive_interval = 60  # Send keepalive every 60 seconds
+keepalive_interval = 3600  # Send keepalive every 60 seconds
 recent_packets = []  # Store recent packets for log
 max_recent_packets = 100  # Limit the number of packets stored
 
